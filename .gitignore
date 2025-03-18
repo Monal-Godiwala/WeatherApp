@@ -10,6 +10,9 @@ build/
 *.iml
 *.iws
 *.ipr
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
 
 # Android Studio cache
 /.idea/caches/
@@ -39,6 +42,8 @@ app/build/
 */build/
 
 # Proguard configuration files
+proguard/
+proguard-project.txt
 proguard-rules.pro
 
 # Miscellaneous
@@ -51,7 +56,18 @@ proguard-rules.pro
 ndkBuild/
 local.properties
 
-# Default
+# generated files
+bin/
+gen/
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
+
+# Android Studio generated files and folders
 /captures
 .externalNativeBuild
 .cxx
+output.json
