@@ -1,15 +1,73 @@
-*.iml
-.gradle
+# Gradle files
+.gradle/
+build/
+
+# Local configuration files
 /local.properties
-/.idea/caches
-/.idea/libraries
+
+# Android Studio and IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+*.ipr
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Android Studio cache
+/.idea/caches/
+/.idea/libraries/
 /.idea/modules.xml
 /.idea/workspace.xml
+/.idea/gradle.xml
+/.idea/usage.statistics.xml
+/.idea/dictionaries/
+/.idea/httpRequests/
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Log files
+*.log
+
+# OS-specific files
 .DS_Store
-/build
+Thumbs.db
+
+# Build directories
+app/build/
+*/build/
+
+# Proguard configuration files
+proguard/
+proguard-project.txt
+proguard-rules.pro
+
+# Miscellaneous
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Android NDK
+ndkBuild/
+local.properties
+
+# generated files
+bin/
+gen/
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
+
+# Android Studio generated files and folders
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+output.json
